@@ -35,7 +35,7 @@ jobs:
       -
         name: Build and push
         id: docker_build
-        uses: docker/build-push-action@v2.4.0
+        uses: docker/build-push-action@v3.1.0
         with:
           context: ./images/nominatim
           push: true
@@ -76,7 +76,7 @@ jobs:
       -
         name: Build and push
         id: docker_build
-        uses: docker/build-push-action@v2.4.0
+        uses: docker/build-push-action@v3.1.0
         with:
           context: ./images/postgresql11
           push: true
@@ -117,7 +117,7 @@ jobs:
       -
         name: Build and push
         id: docker_build
-        uses: docker/build-push-action@v2.4.0
+        uses: docker/build-push-action@v3.1.0
         with:
           context: ./images/postgresql11-ha
           push: true
@@ -158,7 +158,7 @@ jobs:
       -
         name: Build and push
         id: docker_build
-        uses: docker/build-push-action@v2.4.0
+        uses: docker/build-push-action@v3.1.0
         with:
           context: ./images/postgresql12
           push: true
@@ -199,7 +199,7 @@ jobs:
       -
         name: Build and push
         id: docker_build
-        uses: docker/build-push-action@v2.4.0
+        uses: docker/build-push-action@v3.1.0
         with:
           context: ./images/postgresql12-ha
           push: true
@@ -240,7 +240,7 @@ jobs:
       -
         name: Build and push
         id: docker_build
-        uses: docker/build-push-action@v2.4.0
+        uses: docker/build-push-action@v3.1.0
         with:
           context: ./images/postgresql13
           push: true
@@ -281,7 +281,7 @@ jobs:
       -
         name: Build and push
         id: docker_build
-        uses: docker/build-push-action@v2.4.0
+        uses: docker/build-push-action@v3.1.0
         with:
           context: ./images/postgresql13-ha
           push: true
